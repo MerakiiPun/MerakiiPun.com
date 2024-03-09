@@ -6,7 +6,40 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+<body class="">
+    <header>
+        <nav class="bg-primary flex justify-between items-center p-5">
+            <div>
+                <h1 class="text-white text-2xl uppercase font-bold ">MerakiiPun</h1>
+            </div>
+            <div class="flex items-center">
+                <ul class="hidden text-white mr-10 md:flex [&>*]:ml-5">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Products</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars text-2xl text-white cursor-pointer"></i>
+        </nav>
+    </header>
+
+    <main>
+        <section class="p-10 bg-beige -z-[-4]">
+            <div class="flex flex-col items-center">
+                <div class="w-3/4 md:w-96 relative z-[5]">
+                    <img src="img/crochet.jpg" alt="" class="object-cover w-full rounded-lg">
+                    <div class="bg-secondary w-full h-full absolute top-2 left-2 rounded-lg z-[-1]"></div>
+                </div>
+
+                <div class="text-center my-8">
+                    <h1 class="font-bold uppercase text-3xl text-primary mb-4">Handmade Crochets!</h1>
+                    <p>tenetur hic illo quisquam consequuntur exercitationem placeat recusandae nobis aliquid nisi molestias nemo ullam, qui temporibus quas est voluptates perspiciatis.</p>
+                </div>
+
+                <a href=""><span class="bg-secondary rounded-full px-8 py-3 text-white font-semibold">Buy Now!</span></a>
+            </div>
+        </section>
+    </main>
+    <script src="https://kit.fontawesome.com/662dff12dd.js" crossorigin="anonymous"></script>
 </body>
 </html>
